@@ -1,0 +1,16 @@
+nav ul {
+    list-style-type: none;
+    color: #495057;
+}
+
+nav li {
+    padding: 0px 10px;
+}
+
+nav li a:hover {
+    color: #752183;
+}
+
+nav li, nav a{
+    color: #495057;
+}

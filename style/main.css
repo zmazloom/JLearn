@@ -1,0 +1,18 @@
+@import url("abstracts/mixins");
+@import url("abstracts/variables");
+
+@import url("base/global.css");
+@import url("base/reset.css");
+@import url("base/typography.css");
+
+@import url("components/buttons.css");
+@import url("components/category-card.css");
+
+@import url("layout/flex.css");
+@import url("layout/footer.css");
+@import url("layout/header.css");
+@import url("layout/navigation.css");
+@import url("layout/sidebar.css");
+
+@import url("pages/home.css");
+@import url("pages/categories.css");

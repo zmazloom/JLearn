@@ -1,0 +1,55 @@
+@media only screen and (max-width: 1452px) {
+    #course-section .category-title,  #course-section .category-title-teacher {
+        font-size: 9px;
+    }
+}
+
+/***********report-section************/
+#report-section {
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 1px 2px 0 rgb(25 25 25 / 20%);
+    margin-top: 25px;
+    border-radius: 8px;
+}
+.report-section-item {
+    font-size: 16px;
+    text-align: center;
+}
+.report-section-item i {
+    color: #383d48;
+    font-size: 28px;
+    margin-bottom: 22px;
+}
+.report-section-item i:hover {
+    color: #752183;
+}
+/*********************************/
+
+/***********course-section************/
+#course-section {
+    background-color: white;
+    padding: 20px 10px;
+    border-radius: 8px;
+    margin-right: 10px;
+    box-shadow: 0 1px 2px 0 rgb(25 25 25 / 20%);
+}
+#course-section .category-card {
+    padding: 40px 10px;
+    width: 23%;
+    margin-bottom: 44px;
+}
+#course-section .category-card img {
+    width: 100%;
+    height: 180px;
+    margin-bottom: 20px;
+}
+/*********************************/
+
+/***********main-content************/
+.main-content {
+    margin: 40px auto;
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+}
+/*********************************/
