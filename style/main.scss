@@ -1,0 +1,24 @@
+//Abstracts
+@import 'abstracts/_mixins.scss';
+@import 'abstracts/_variables.scss';
+
+//Base Styles
+@import 'base/_global.scss';
+@import 'base/_reset.scss';
+@import 'base/_typography.scss';
+
+//Components
+@import 'components/_buttons.scss';
+@import 'components/_category-card.scss';
+@import 'components/_container.scss';
+@import 'components/_filter-side.scss';
+
+//Layouts
+@import 'layout/_flex.scss';
+@import 'layout/_footer.scss';
+@import 'layout/_header.scss';
+@import 'layout/_navigation.scss';
+
+//Pages
+@import 'pages/_home.scss';
+@import 'pages/_categories.scss';

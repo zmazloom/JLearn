@@ -1,0 +1,38 @@
+body {
+    direction: rtl;
+    background-color: $lightGray;
+    display: block;
+    width: 100%;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/*************width*************/
+.wi-25 {
+    width: 25%;
+    min-width: 25%;
+}
+.wi-35 {
+    width: 35%;
+    min-width: 35%;
+}
+.wi-45 {
+    width: 45%;
+    min-width: 45%;
+}
+.wi-75 {
+    width: 75%;
+    min-width: 75%;
+}
+.wi-100 {
+    width: 100%;
+    min-width: 100%;
+}
+/********************************/
