@@ -1,0 +1,43 @@
+#filter-side {
+
+    margin-left: 10px;
+
+    @media only screen and (max-width: $smallBreakpoint) {
+        label {
+            font-size: 10px;
+        }
+    }
+
+    aside {
+        background-color: white;
+        margin-bottom: 20px;
+        border-radius: 8px;
+        padding: 10px 20px;
+        box-shadow: 0 1px 2px 0 $block;
+    }
+
+    div {
+        margin-bottom: 15px;
+        font-size: 14px;
+    }
+
+    h4 {
+        margin-bottom: 20px;
+        padding: 10px;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    }
+
+    input[type=button] {
+        height: 100%;
+        background: none;
+        border: none;
+        width: 100%;
+        cursor: pointer;
+        margin: 5px auto;
+    }
+
+    input[type=checkbox] {
+        accent-color: $purple;
+    }
+
+}

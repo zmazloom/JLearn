@@ -1,0 +1,115 @@
+/***********report-section************/
+#report-section {
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 1px 2px 0 $block;
+    margin-top: 25px;
+    border-radius: 8px;
+
+    .report-section-item {
+        font-size: 16px;
+        text-align: center;
+    
+        i {
+            color: #383d48;
+            font-size: 28px;
+            margin-bottom: 22px;
+
+            &:hover {
+                color: $purple;
+            }
+        }
+    }
+}
+/*********************************/
+
+/********cateogry-description*********/
+#category {
+    height: 250px;
+    background-color: white;
+    margin-top: 30px;
+    border-radius: 8px;
+    box-shadow: 0 1px 2px 0 $block;
+    padding-right: 0px !important;
+
+    #category-img {
+        img {
+            height: 100%;
+            border-radius: 8px;
+        }
+    }
+
+    #category-description {
+        overflow: hidden;
+        padding: 10px 30px;
+    
+        h1 {
+            margin: 20px auto 25px auto;
+        }
+    
+        p {
+            line-height: 20px;
+            font-size: 14px;
+            text-align: justify;
+        }
+    
+        .category-description {
+            @media only screen and (max-width: $mediumBreakpoint) {
+                p {
+                    font-size: 9px !important;
+                }
+            }
+        
+            @media only screen and (max-width: $smallBreakpoint) {
+                p {
+                    font-size: 6px !important;
+                }
+            }
+        }
+    }
+}
+/*********************************/
+
+/***********course-section************/
+#course-section {
+    background-color: white;
+    padding: 20px 10px;
+    border-radius: 8px;
+    margin-right: 10px;
+    box-shadow: 0 1px 2px 0 $block;
+
+    @media only screen and (max-width: $largeBreakpoint) {
+        .category-title, .category-title-teacher {
+            font-size: 9px;
+        }
+    }
+
+    .category-card {
+        padding: 40px 10px;
+        width: 23%;
+        margin-bottom: 44px;
+    }
+
+    .rectangular-card {
+        @extend .category-card;
+    }
+
+    .circular-card {
+        @extend .category-card;
+    }
+
+    img {
+        width: 100%;
+        height: 180px;
+        margin-bottom: 20px;
+    }
+}
+/*********************************/
+
+/***********main-content************/
+.main-content {
+    margin: 40px auto;
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+}
+/*********************************/

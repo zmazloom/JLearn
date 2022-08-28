@@ -1,0 +1,28 @@
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 1440px;
+
+    @media only screen and (min-width: 0px) {
+        width: 380px;
+    }
+
+    @media only screen and (min-width: $miniBreakpoint) {
+        width: 480px;
+    }
+
+    @media only screen and (min-width: $smallBreakpoint) {
+        width: 800px;
+    }
+
+    @media only screen and (min-width: $mediumBreakpoint) {
+        width: 1152px;
+    }
+
+    @media only screen and (min-width: $largeBreakpoint) {
+        width: 1440px;
+    }    
+    
+}

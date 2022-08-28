@@ -1,0 +1,54 @@
+#main-img {
+    background-image: url("../images/main-img.png");
+    background-size: cover;
+    height: 400px;
+    min-height: 400px;
+    position: relative;
+    text-align: center;
+
+    h1,h2 {
+        color: white;
+    }
+    
+    h2 {
+        margin: 30px auto;
+    }
+
+    .search-container {
+        margin-top: 60px;
+
+        input {
+            padding: 8px 12px 8px 73px;
+            border: 1px solid #dedfe0 !important;
+            border-radius: 3px;
+            color: white;
+            font-weight: 300;
+            background: transparent;
+            font-size: 16px;
+            outline: none;
+
+            &::placeholder {
+                color: white;
+            }
+        }
+
+        button {
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 100%;
+            cursor: pointer;
+            font-size: 24px;
+            width: 44px;
+            background: transparent;
+            border: 0;
+            color: white;
+        }
+
+        form {
+            position: relative;
+            overflow: hidden;
+            border-radius: 3px;
+        }
+    }
+}

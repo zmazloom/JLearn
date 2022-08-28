@@ -1,0 +1,19 @@
+nav {
+    ul {
+        list-style-type: none;
+        color: $darkGray;
+    }
+    
+    li {
+        padding: 0px 10px;
+        color: $darkGray;
+
+        a {
+            color: $darkGray;
+
+            &:hover {
+                color: $purple;
+            }
+        }
+    }
+}
