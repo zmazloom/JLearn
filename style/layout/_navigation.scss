@@ -10,10 +10,10 @@ nav {
 
         a {
             color: $darkGray;
-        }
 
-        a:hover {
-            color: $purple;
+            &:hover {
+                color: $purple;
+            }
         }
     }
 }
